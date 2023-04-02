@@ -7,7 +7,7 @@ components.login = `   <div class="register-container">
     <div class="header">
         <h3>MindX Chat</h1>
     </div>
-    <form id="register-form">
+    <form id="login-form">
         
         <div class="input-wrapper">
             <input type="email" placeholder="Email..." name="email">
@@ -20,7 +20,7 @@ components.login = `   <div class="register-container">
         
 
         <div class="form-action">
-            <span class="cursor" id="redirect-to-login">Already have an account?</span>
+            <span class="cursor" id="redirect-to-register">Don't have an account?</span>
             <button class="btn" type="submit">Login</button>
         </div>
     </form>

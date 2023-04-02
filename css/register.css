@@ -1,0 +1,65 @@
+/* style cho toàn bộ tất cả trang web */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+.input-wrapper input{
+    border: 1px solid #dbdbdb;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+.input-wrapper{
+    margin-bottom: 10px;
+}
+.register-container{
+    height: 100vh;
+    background-image: url('../img/back-ground-đăng kí.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.aside-right{
+    width: 28%;
+    height: 100vh;
+    background-color: #fff;
+    
+}
+.header h3{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #037bfe;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 200;
+}
+.input-name-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.input-name-wrapper .input-wrapper{
+    width: 48%;
+}
+#register-form{
+    padding: 20px;
+}
+.aside-right .form-action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    padding: 8px 20px;
+    background-color: #037bfe;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor:pointer
+}
+.cursor{
+    cursor: pointer;
+}

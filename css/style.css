@@ -63,3 +63,6 @@
 .cursor{
     cursor: pointer;
 }
+.error{
+    color: red;
+}
