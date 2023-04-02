@@ -28,7 +28,12 @@ controller.register = (data) => {
     };
     // check password with confirm password
     data.password !== data.confirmPassword ?
-    document.getElementById("confirm-password-error").innerText = "Confirm password is error" :
-    document.getElementById("confirm-password-error").innerText = "";
+        document.getElementById("confirm-password-error").innerText = "Confirm password is error" :
+        document.getElementById("confirm-password-error").innerText = "";
 
+    //create users
+    if (data.firstName !== "" && data.lastName !== "" && data.password !== "" && data.email !== "" && data.confirmPassword !== "") {
+        //send clean information to model
+        model.register(data);
+    }
 }

@@ -1,4 +1,4 @@
-// Chứa html qua từng trang web
+// include every component of every html file
 const components = {};
 
 components.navbar = `<h1>Hello World</h1>`;
